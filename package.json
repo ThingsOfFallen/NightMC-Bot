@@ -4,11 +4,19 @@
   "description": "NightMC Bot for NightMC Network.",
   "main": "app.js",
   "scripts": {
-    "test": "null"
+    "start": "echo Please select one of the following: Start Production: yarn run start:production, Start Test: yarn run start:test, Start Development: yarn run start:dev",
+    "start:dev": "cls && nodemon app.js",
+    "start:test": "cls && node app.js",
+    "start:production": "echo Select One: Linux: yarn run start:production:linux, Windows: yarn run start:production:win.",
+    "start:production:win": "npm run clear:win && yarn run production",
+    "start:production:linux": "npm run clear:linux && npm run production",
+    "clear:win": "cls",
+    "clear:linux": "clear",
+    "production": "node ./app.js --trace-warnings --trace-uncaught --trace-deprecation"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ThingsOfFallen/NightMC-Bot.git"
+    "url": "git+https://github.com/NightMCOfficial/Bot.git"
   },
   "keywords": [
     "NightMC",
@@ -21,26 +29,29 @@
   "author": "Liam L <TheFallenSpirit>",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/ThingsOfFallen/NightMC-Bot/issues"
+    "url": "https://github.com/NightMCOfficial/Bot/issues"
   },
-  "homepage": "https://github.com/ThingsOfFallen/NightMC-Bot#readme",
-  "devDependencies": {
-    "chalk": "^4.1.0",
-    "dotenv": "^8.2.0",
-    "figlet": "^1.5.0"
-  },
+  "homepage": "https://github.com/NightMCOfficial/Bot#readme",
   "optionalDependencies": {
     "pm2": "^4.5.5"
   },
   "dependencies": {
     "@discordjs/opus": "^0.5.0",
     "avconv": "^3.1.0",
+    "axios": "^0.21.1",
     "discord.js": "^12.5.2",
     "ffmpeg": "^0.0.4",
     "ffmpeg-static": "^4.2.8",
     "moment": "^2.29.1",
     "mongoose": "^5.12.3",
     "ms": "^2.1.3",
-    "ytdl-core-discord": "^1.3.0"
+    "random-jokes-api": "^1.5.9",
+    "something-random-on-discord": "^3.3.2",
+    "ytdl-core-discord": "^1.3.0",
+    "zoro-api": "^0.3.5",
+    "chalk": "^4.1.0",
+    "dotenv": "^8.2.0",
+    "figlet": "^1.5.0",
+    "nodemon": "^2.0.7"
   }
 }

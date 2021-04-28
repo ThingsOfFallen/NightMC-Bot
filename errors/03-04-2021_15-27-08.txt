@@ -1,0 +1,2 @@
+DiscordAPIError: Invalid Form Body
+parent_id: Category does not exist

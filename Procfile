@@ -1,0 +1,1 @@
+Main: yarn run production

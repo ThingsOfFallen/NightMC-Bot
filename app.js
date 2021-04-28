@@ -8,3 +8,4 @@ console.log(`${chalk.yellow.bold('#')}                   ${chalk.magenta.bold('C
 console.log(`${chalk.yellow.bold('#')}              ${chalk.red(`Copyright © 2021-${year}`)} ${chalk.cyanBright.bold('Liam L <TheFallenSpirit>')}              ${chalk.yellow.bold('#')}`);
 console.log(`${chalk.yellow.bold('#')}                              ${chalk.grey.bold('Starting bot..')}                              ${chalk.yellow.bold('#')}`);
 console.log(chalk.yellow.bold('#==========================================================================#'));
+require('./src/client/client');

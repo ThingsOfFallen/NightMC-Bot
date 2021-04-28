@@ -1,0 +1,19 @@
+{
+    "client": {
+        "token": "ODI3NDk2OTUxNTU2NjAzOTA0.YGb4lw.JOP7e2gk1kckOCLiqGxXSPJqIX8",
+        "secret": "JTDcivdCJjZcMmnWyLkA1T_sQCu-xpCU",
+        "public_key": "cf3612a454dc807a2f9b145ff30fe5461d1b8deeb7f2cde45df153ac9762693a"
+    },
+    "database": {
+        "type": "mongodb+srv",
+        "host": "ykbfk.mongodb.net",
+        "username": "nightmc-bot",
+        "password": "ybfp9%40gDYuYCWHPAJwWD%26z2%26rbGw6Y%23D",
+        "cluster": "bot",
+        "database": "master"
+    },
+    "backend": {
+        "access": ["762931157498331157", "471306929575034882", "707549304382029845", "623534693295325196"],
+        "notify": ["762931157498331157", "471306929575034882", "707549304382029845", "623534693295325196"]
+    }
+}
